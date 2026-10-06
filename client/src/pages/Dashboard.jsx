@@ -5,7 +5,7 @@ function Dashboard() {
   const [reports, setReports] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API = "http://localhost:5000";
+  const API = "http://https://rivereye.onrender.com:5000";
 
   const getReports = async () => {
     try {

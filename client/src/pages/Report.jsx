@@ -62,7 +62,7 @@ function Report() {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/reports",
+        "http://https://rivereye.onrender.com:5000/api/reports",
         formData
       );
 

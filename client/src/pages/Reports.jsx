@@ -11,7 +11,7 @@ function Reports() {
   const loadReports = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/reports"
+        "http://https://rivereye.onrender.com:5000/api/reports"
       );
 
       setReports(response.data);

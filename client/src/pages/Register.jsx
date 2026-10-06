@@ -14,7 +14,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "http://https://rivereye.onrender.com:5000/api/auth/register",
         {
           name,
           email,

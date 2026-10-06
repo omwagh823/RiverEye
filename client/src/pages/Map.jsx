@@ -15,7 +15,7 @@ function Map() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/reports")
+      .get("http://https://rivereye.onrender.com:5000/api/reports")
       .then((res) => setReports(res.data))
       .catch((err) => console.error(err));
   }, []);

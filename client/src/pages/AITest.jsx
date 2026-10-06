@@ -21,7 +21,7 @@ function AITest() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai-test",
+        "http://https://rivereye.onrender.com:5000/api/ai-test",
         formData
       );
 

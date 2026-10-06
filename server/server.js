@@ -439,7 +439,7 @@ app.listen(
   "0.0.0.0",
   () => {
     console.log(
-      `🚀 Server running on http://localhost:${PORT}`
+      `🚀 Server running on https://rivereye.onrender.com`
     );
   }
 );
