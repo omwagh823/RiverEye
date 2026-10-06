@@ -1,3 +1,10 @@
+import pkg from "pg";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const { Pool } = pkg;
+
 const pool = new Pool({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
@@ -8,3 +15,5 @@ const pool = new Pool({
     rejectUnauthorized: false,
   },
 });
+
+export default pool;
